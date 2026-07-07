@@ -10,6 +10,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - The Browse menu also loads additional Collections on demand
+- Added basic support for the STAC API extensions Transactions (for Items) and Collection Transactions
+  - Adds three new config options: `transactions`, `transactionsRequireLogin` and `transactionsRequirePreflight
 
 ### Changed
 
