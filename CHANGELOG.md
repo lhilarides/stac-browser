@@ -20,6 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Fixed
 
+- Alternate assets are considered as thumbnail and preview candidates if the original asset can't be shown in a browser
 - Fix global error handling in certain edge-cases
 - Improve speed of catalog/collection duplicate detection
 - Fix search link detection
