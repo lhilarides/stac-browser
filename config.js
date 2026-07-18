@@ -1,5 +1,5 @@
 export default {
-  catalogUrl: null,
+  catalogUrl: 'https://storage.googleapis.com/gmw-mvp-datalake-project-proproot/stac/catalog.json',
   catalogTitle: null,
   catalogTitleAfterImage: null,
   catalogImage: null,
@@ -40,8 +40,8 @@ export default {
   displayOverviewsForChildren: false,
   buildTileUrlTemplate: null,
   getMapSourceOptions: null,
-  pathPrefix: "/",
-  historyMode: "history",
+  pathPrefix: '/explorer/',
+  historyMode: 'hash',
   cardViewMode: "cards",
   defaultCollectionSort: "title",
   defaultItemSort: null,
